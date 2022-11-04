@@ -20,6 +20,7 @@ public class AppConfig {
         return new MemberServiceImpl(memberRepository());
     }
 
+
     @Bean
     public OrderService orderService(){
         System.out.println("call AppConfig.orderService");
